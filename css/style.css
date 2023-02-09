@@ -1,24 +1,19 @@
 body {
-    background-color: lightblue;
+    background-color: lightgrey;
   }
-/* styles for heading h1 */
 h1 {
-    /* text color*/
-    color: #810404;
+    color: #4CAF50;
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
     
   }
   
-  /* label rules */
   label {
     display: block;
-    /* bold text */
     font-weight: bold;
     margin: 0.4rem;
   }
   
-  /* button css */
   input[type="submit"],
   input[type="reset"] {
     display: block;
@@ -37,14 +32,11 @@ h1 {
     width: 12rem;
   }
   
-  /* button mouse hover rule */
   input[type="submit"]:hover,
   input[type="reset"]:hover {
     opacity: 0.8;
   }
   
-  /* Desktop CSS */
-  /* media query for desktop */
   @media (min-width: 1025px) {
     label {
       width: 8rem;
